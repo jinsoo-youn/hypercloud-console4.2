@@ -2,8 +2,8 @@
 
 k8sIP='172.22.6.2'
 
-myIP=$(ipconfig | grep "IPv4" -a | head -1 | awk '{print $NF}')
-
+# myIP=$(ipconfig | grep "IPv4" -a | head -1 | awk '{print $NF}')
+myIP=$(hostname -I | awk '{print $1}')
 
 ### k8s 환경에 ssh 최초 접속 시 다음 두 줄을 실행해주세요. 그러면 다음부터 password 없이 login할 수 있습니다.
 ### ssh-keygen을 실행하면 파일명과 passphrase를 입력하라고 뜨는데, empty로 놔두고 Enter를 눌러 진행하면 됩니다.

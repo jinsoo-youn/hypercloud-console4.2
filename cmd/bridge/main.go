@@ -16,9 +16,9 @@ import (
 	"github.com/coreos/pkg/capnslog"
 	"github.com/coreos/pkg/flagutil"
 
-	"github.com/openshift/console/auth"
-	"github.com/openshift/console/pkg/proxy"
-	"github.com/openshift/console/server"
+	"github.com/tmax-cloud/hypercloud-console/auth"
+	"github.com/tmax-cloud/hypercloud-console/pkg/proxy"
+	"github.com/tmax-cloud/hypercloud-console/server"
 )
 
 var (

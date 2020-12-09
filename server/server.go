@@ -28,9 +28,9 @@ import (
 	"github.com/coreos/pkg/health"
 	"github.com/justinas/alice"
 
-	"github.com/openshift/console/auth"
-	"github.com/openshift/console/pkg/proxy"
-	"github.com/openshift/console/version"
+	"github.com/tmax-cloud/hypercloud-console/auth"
+	"github.com/tmax-cloud/hypercloud-console/pkg/proxy"
+	"github.com/tmax-cloud/hypercloud-console/version"
 
 	"github.com/Sirupsen/logrus"
 )

@@ -3,7 +3,7 @@ package server
 import (
 	"net/http"
 
-	"github.com/openshift/console/auth"
+	"github.com/tmax-cloud/hypercloud-console/auth"
 )
 
 // Middleware generates a middleware wrapper for request hanlders.
